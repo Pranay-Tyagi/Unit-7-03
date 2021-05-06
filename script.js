@@ -1,5 +1,5 @@
 document.querySelector('.button').addEventListener('click', function () {
-  let value = document.querySelector('input').value
+  const value = document.querySelector('input').value
   if (value < 13) {
     alert('G rated')
   } else if (value >= 13 && value < 18) {
